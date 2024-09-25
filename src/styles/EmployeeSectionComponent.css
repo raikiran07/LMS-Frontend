@@ -1,0 +1,196 @@
+.container-4{
+    /* margin: 30px; */
+    height: auto;
+    text-align: start;
+    /* border and some styling added */
+    /* border:1px solid black; */
+    border-radius: 15px;
+    max-width: 95%;
+    margin:2rem auto;
+    box-shadow: 5px 5px 10px rgb(236, 234, 234);
+    background-color: white;
+    overflow: hidden;
+    padding:10px;
+
+}
+
+.leave-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(72, 157, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leave{
+    color: rgb(72, 157, 255);
+    font-size: 24px;
+    margin: 10px 20px;
+    background-color: transparent;
+}
+
+.apply-leave{
+    padding: 4px 8px;
+    color: white;
+    margin: 10px;
+    border: none;
+    transition: .3s;
+    border: 1px solid rgb(72, 157, 255);
+    background-color: rgb(72, 157, 255);
+    border-radius: 5px;
+}
+
+.apply-leave:hover{
+    background-color: rgb(72, 157, 255);
+}
+
+.transaction-type{
+    display: inline-block;
+    padding: 20px 20px;
+    
+}
+
+.transaction-type .form-group{
+    display: inline-block;
+}
+
+#transaction-class{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+
+.apply{
+    padding: 6px 10px;
+    color: white;
+    margin: 10px;
+    border: none;
+    transition: .3s;
+    border: 1px solid rgb(72, 157, 255);
+    background-color: rgb(72, 157, 255);
+    border-radius: 5px;
+}
+
+.cancel{
+    padding: 6px 10px;
+    color: white;
+    margin: 10px;
+    border: none;
+    transition: .3s;
+    border: 1px solid gray;
+    background-color: rgb(72, 157, 255);
+    border-radius: 5px;
+}
+
+.apply:hover{
+    cursor: pointer;
+    background-color: rgb(72, 157, 255);
+}
+
+.cancel:hover{
+    background-color: rgb(72, 157, 255);
+}
+
+#leave-type{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#session-type{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#start-date{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#end-date{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#days-num{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#text-area{
+    padding: 10px 10px;
+    width: 300px;
+    border: 1px solid rgb(72, 157, 255);
+}
+
+#mobile-no{
+    padding: 4px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(72, 157, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.form-group label{
+    display: block;
+}
+
+.search-entry-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.search label{
+    display: block;
+}
+
+#search-bar{
+    width: 300px;
+    height: 40px;
+}
+
+.leave-history-table{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.leave-history-table thead tr{
+    border-bottom: 2px solid black;
+}
+
+.leave-history-table tbody tr{
+    border-bottom: 1px solid black;
+}
+
+/* input,textarea{
+    background-color: white;
+} */

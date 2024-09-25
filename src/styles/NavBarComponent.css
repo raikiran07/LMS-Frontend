@@ -1,0 +1,52 @@
+.navbarr{
+    max-width:88%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    font-size:1rem;
+    
+   
+  
+}
+
+.logo{
+    /* margin: 0 0 0 50px; */
+    width: auto;
+    height: 35px;
+}
+
+.navbarr-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    
+}
+
+.employee-logo{
+    width: auto;
+    height: 35px;
+    /* margin-right: 10px; */
+}
+
+
+.brand-name{
+    font-size: 26px;
+    font-weight: 700;
+    color: red;
+}
+
+.navbarr-left{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    font-style: italic;
+    background-color: transparent;
+    position:relative;
+}
+
+img,.navbarr-right{
+    background-color: rgb(255, 243, 243);
+}

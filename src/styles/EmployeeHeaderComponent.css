@@ -1,0 +1,145 @@
+.main-container{
+    margin: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:30px;
+    /* border:1px solid black; */
+    
+    /* background-color: whitesmoke; */
+    /* height: auto; */
+    
+}
+.container1{
+    width: 450px;
+    /* height: auto; */
+    /* margin: 30px 10px; */
+    min-height: 272px;
+    padding: 10px;
+    /* border: 1px solid rgb(193, 16, 16); */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(199, 198, 198);
+    background-color: white;
+}
+
+
+.balance{
+    color: rgb(72, 157, 255);
+    border-bottom: 1px solid rgb(72, 157, 255);
+    margin-bottom: 0;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+/* .container1:hover{
+    box-shadow: 6px 6px 18px gray, -6px -6px 18px gray;
+    box-shadow: grey 0px 2px 8px 0px;
+    translate: 5px -5px;
+
+} */
+
+.table1-leavetypes{
+    margin: 0;
+}
+
+.table1-leavetypes thead tr.noOfLeaves{
+    text-align: center;
+    color: rgb(72, 157, 255);
+    font-size: 20px;
+}
+
+.table1-leavetypes thead .headings th{
+    text-align: center;
+    font-size: 12px;
+    padding: 0 6px;
+}
+
+.table1-leavetypes tbody td{
+    padding: 3px 0;
+    text-align: center;
+}
+
+.table1-leavetypes tbody tr{
+    text-align: center;
+}
+
+
+
+.container2{
+    /* margin: 30px; */
+    padding: 10px;
+    transition: .5s;
+    /* border: 1px solid gray; */
+    border-radius: 20px;
+    background-color: white;
+    min-width:260px;
+    box-shadow: 5px 5px 10px rgb(199, 198, 198);
+    min-height:273px;
+}
+
+/* .container2:hover{
+    box-shadow: grey 0px 2px 8px 0px;
+    translate: 5px -5px;
+} */
+
+.leaves{
+    border-bottom: 1px solid rgb(72, 157, 255);
+    padding: 4px 10px;
+    color: rgb(72, 157, 255);
+    width: 130%;
+}
+
+.container2 .table2-totalleaves{
+    text-align: left;
+}
+
+.table2-totalleaves tbody td{
+    padding: 10px 20px;
+}
+
+.value{
+    color: rgb(72, 157, 255);
+}
+
+
+.container3{
+    /* width: 300px; */
+    /* height: auto; */
+    /* border: 1px solid gray; */
+    /* margin: 30px; */
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(199, 198, 198);
+    transition: .5s;
+    border-radius: 20px;
+    background-color: white;
+    min-height:273px;
+}
+
+/* .container3:hover{
+    box-shadow: grey 0px 2px 8px 0px;
+    translate: 5px -5px;
+} */
+
+.container3 .table3-working-calender{
+    text-align: left;
+}
+
+.table3-working-calender tbody td{
+    padding: 10px 20px;
+}
+
+.calender{
+    border-bottom: 1px solid rgb(72, 157, 255);
+    padding: 4px 10px;
+    color: rgb(72, 157, 255);
+}
+
+.holiday{
+    text-decoration: none;
+    color: rgb(72, 157, 255);
+    background-color: white;
+}
+
+.holiday:hover{
+    color: rgb(255, 162, 162);
+}
